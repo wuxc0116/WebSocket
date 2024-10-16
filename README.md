@@ -11,7 +11,6 @@ This is a basic WebSocket server using `socket.io` and `express`.
 
 ## Run the server
 
-2. **Install Dependencies**
    ```bash
    cd server
     node server.js
