@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.socket.io/socket.io-3.0.0.js"></script>
+    <script defer src="app.js"></script>
+</head>
+<body>
+
+    <ul>
+        
+    </ul>
+
+    <input placeholder="message">
+    <button>Send</button>
+
+    <h2>Create Resource</h2>
+    <form id="resourceForm">
+        <input type="text" id="resourceId" placeholder="ID" required>
+        <input type="text" id="resourceName" placeholder="Name" required>
+        <button type="submit">Create Resource</button>
+    </form>
+
+    <h2>All Resources</h2>
+    <button id="getAllResources">Fetch All Resources</button>
+    <ul id="resourceList"></ul>
+
+    <h2>Delete Resource</h2>
+    <input type="text" id="deleteId" placeholder="Resource ID to delete" required>
+    <button id="deleteResource">Delete Resource</button>
+    
+</body>
+</html>
